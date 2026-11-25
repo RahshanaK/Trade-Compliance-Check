@@ -1,0 +1,21 @@
+portfolio_id,security_id,action,quantity,price,decision,reason,expected_decision,test_status
+POR001,AAPL,Buy,20.0,150.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR001,AAPL,Buy,60.0,150.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR001,TCS,Sell,50.0,310.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR001,TCS,Sell,60.0,310.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR001,XYZCORP,Buy,10.0,50.0,Rejected,Security is restricted for this portfolio.,Rejected,PASS
+POR001,AAPL,Buy,400.0,150.0,Needs Manual Sign-off,Exceeds maximum position concentration — requires approval.,Needs Manual Sign-off,PASS
+POR001,AAPL,Buy,-10.0,150.0,Rejected,Invalid trade data.,Rejected,PASS
+POR001,INFY,Buy,10.0,1500.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR002,GOOGL,Buy,5.0,2000.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR003,BADCO,Buy,10.0,100.0,Rejected,Security is restricted for this portfolio.,Rejected,PASS
+POR003,TCS,Buy,5.0,300.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR003,INFY,Buy,50.0,1500.0,Needs Manual Sign-off,Exceeds maximum position concentration — requires approval.,Needs Manual Sign-off,PASS
+POR003,RELIANCE,Sell,30.0,2400.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR003,RELIANCE,Sell,31.0,2400.0,Rejected,Insufficient holdings to sell.,Rejected,PASS
+POR004,GOOGL,Buy,10.0,2000.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR004,AAPL,Buy,300.0,150.0,Needs Manual Sign-off,Exceeds maximum position concentration — requires approval.,Needs Manual Sign-off,PASS
+POR005,PENNY1,Buy,5.0,10.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR005,AAPL,Buy,33.0,150.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR005,AAPL,Buy,34.0,150.0,Approved,Trade passed all validation checks.,Approved,PASS
+POR005,TCS,Buy,20.0,250.0,Approved,Trade passed all validation checks.,Approved,PASS
